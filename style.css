@@ -1,49 +1,70 @@
-
-  .square {
-    width: 200px;
-    height: 300px;
-   border-radius: 5px;
-   background-color: rgb(202, 200, 207);
-  }
-
-  .align-center{
-    align-items: center;
-  }
-
-  .justify-center{
-    justify-content: center;
-  }
-
-  .d-flex{
-    width: 100%;
-    display: flex;
-   height: 700px;
-  }
-
-  #zero {
-   display: flex;
-   justify-content: right;
-    font-family:seven segment;
-    font-style:normal;
-    font-weight:400;
-    font-size: x-large;
-    color: rgb(7, 197, 124);
-    }
- 
-.title{
-    text-align: center;
-   padding: 15px;
-   
-
-#boosio { 
-    vertical-align: middle;
-
-   }
+body {
+  height: 100%;
 }
-.display{
-    background-color: black;
-    
-    padding: 15px;
-    
-    
+
+.square {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: rgb(202, 200, 207);
+}
+
+.calculator-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+#zero {
+  display: flex;
+  justify-content: right;
+  font-family: seven segment;
+  font-style: normal;
+  font-weight: 400;
+  font-size: x-large;
+  color: rgb(7, 197, 124);
+}
+
+.title {
+  text-align: center;
+  padding: 15px;
+}
+
+#boosio {
+  vertical-align: middle;
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.display {
+  background-color: black;
+
+  padding: 15px;
+}
+
+.buttons {
+  width: 75%;
+  height: 100%;
+}
+
+.segni {
+  width: 25%;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.numeri {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tasti {
+  background-color: gray;
+  padding: 7px;
+  width: 33%;
 }
