@@ -1,9 +1,9 @@
 
   .square {
-    width: 100px;
+    width: 200px;
     height: 300px;
-   
-   background-color: rgb(161, 159, 166);
+   border-radius: 5px;
+   background-color: rgb(202, 200, 207);
   }
 
   .align-center{
@@ -19,3 +19,31 @@
     display: flex;
    height: 700px;
   }
+
+  #zero {
+   display: flex;
+   justify-content: right;
+    font-family:seven segment;
+    font-style:normal;
+    font-weight:400;
+    font-size: x-large;
+    color: rgb(7, 197, 124);
+    }
+ 
+.title{
+    text-align: center;
+   padding: 15px;
+   
+
+#boosio { 
+    vertical-align: middle;
+
+   }
+}
+.display{
+    background-color: black;
+    
+    padding: 15px;
+    
+    
+}
